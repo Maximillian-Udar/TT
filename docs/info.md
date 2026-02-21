@@ -9,11 +9,19 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+A Full adder which takes three 1-bit inputs. It shows Sum (s) and Carry (c) up to 3 in binary
 
 ## How to test
 
-Explain how to use your project
+Cycle the inputs one by one and observe:
+### a) All instances with only one input high lead to Sum being high.
+### b) Any combination of two inputs high show only Carry being high
+### c) When all inputs are high, both Sum and Carry are high
+
+## The logic realized:
+$S(a,b,c)=(a\oplus b \oplus c)$
+
+$C(a,b,c)=()\vee()\vee()$
 
 ## External hardware
 
