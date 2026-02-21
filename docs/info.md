@@ -21,7 +21,7 @@ Cycle the inputs one by one and observe:
 ## The logic realized:
 $S(a,b,c)=(a\oplus b \oplus c)$
 
-$C(a,b,c)=()\vee()\vee()$
+$C(a,b,c)=(a \wedge b)\vee(a \wedge c)\vee(b \wedge c)$
 
 ## External hardware
 
