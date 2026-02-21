@@ -17,6 +17,7 @@ Cycle the inputs one by one and observe:
 ### a) All instances with only one input high lead to Sum being high.
 ### b) Any combination of two inputs high show only Carry being high
 ### c) When all inputs are high, both Sum and Carry are high
+Should all this conditions be fulfilled, the adder ought be functional
 
 ## The logic realized:
 $S(a,b,c)=(a\oplus b \oplus c)$
